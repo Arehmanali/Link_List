@@ -4,6 +4,7 @@
 using namespace std;
 int main()
 {
+	
 	List myLinkList;	
 	myLinkList.insert(73);
 	myLinkList.insert(334);
