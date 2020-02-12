@@ -4,6 +4,8 @@ void cNode:: setValue(int v)
 {
 	value = v;
 }
+
+// getter function for getting value of node
 int cNode:: getValue()
 {
 	return value;
