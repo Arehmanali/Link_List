@@ -10,10 +10,13 @@ int cNode:: getValue()
 {
 	return value;
 }
+
+/* Setter function for setting the next Node */
 void cNode::setNextNode(cNode* nn)
 {
 	nextNode = nn;
 }
+
 cNode *cNode::getNextNode()
 {
 	return nextNode;
