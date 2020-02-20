@@ -1,5 +1,3 @@
-
-
 #include "List.h"
 #include"cNode.h"
 #include<iostream>
