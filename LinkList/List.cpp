@@ -11,6 +11,8 @@ List::List()
 	lastcurrentNode = 0;
 	size = 0;
 }
+
+/* insert function for inserting the new data in the linklist */
 void List::insert(int n)
 {
 	if (currentNode != 0)
