@@ -37,6 +37,8 @@ void List::insert(int n)
 		insertAtBegin(n);
 	}
 }
+
+/* Print function for printing all the nodes present in linkList */
 void List::printAll()
 {
 	cNode* ptr;
