@@ -51,6 +51,7 @@ void List::printAll()
 		ptr = ptr->nextNode;
 	}
 }
+// Function to bring the current Node in the list to head Node*/
 void List::start()
 {
 	lastcurrentNode = 0;
