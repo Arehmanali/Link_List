@@ -52,7 +52,7 @@ void List::printAll()
 	}
 }
 
-// Function to bring the current Node in the list to head Node*/
+/* Function to bring the current Node in the list to head Node*/
 void List::start()
 {
 	lastcurrentNode = 0;
@@ -65,6 +65,8 @@ void List::move()
 	lastcurrentNode = currentNode;
 	currentNode = currentNode->getNextNode();
 }
+
+/* getter function for getting the value of the node */
 int List::get()
 {
 	return currentNode->getValue();
