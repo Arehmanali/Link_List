@@ -51,12 +51,15 @@ void List::printAll()
 		ptr = ptr->nextNode;
 	}
 }
+
 // Function to bring the current Node in the list to head Node*/
 void List::start()
 {
 	lastcurrentNode = 0;
 	currentNode = headNode;
 }
+
+/* move function for moving the nodes to next node in the list */
 void List::move()
 {
 	lastcurrentNode = currentNode;
