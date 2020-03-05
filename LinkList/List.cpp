@@ -77,6 +77,8 @@ int List::getSize()
 {
 	return size;
 }
+
+/* function for inserting the new node at the start of list */
 void List::insertAtBegin(int n)
 {
 	start();
