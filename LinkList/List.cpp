@@ -71,6 +71,8 @@ int List::get()
 {
 	return currentNode->getValue();
 }
+
+/* getter function for getting the total number of nodes in list */
 int List::getSize()
 {
 	return size;
