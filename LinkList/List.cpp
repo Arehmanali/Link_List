@@ -107,6 +107,8 @@ void List::insertAtLast(int n)
 	currentNode->setNextNode(0);
 	size++;
 }
+
+/* update the data in the list of nodes by searching the node by taking the position from user */
 void List::update(int n)
 {
 	start();
