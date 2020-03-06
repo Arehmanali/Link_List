@@ -89,6 +89,8 @@ void List::insertAtBegin(int n)
 	currentNode->setValue(n);
 	size++;
 }
+
+/* function for inserting the new nodes at the end of link list */
 void List::insertAtLast(int n)
 {
 	start();
