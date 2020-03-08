@@ -163,6 +163,8 @@ void List::deleteNode()
 		size--;
 	}
 }
+
+/* search function for searching the nodes from the list of nodes */
 void List::search()
 {
 	start();
