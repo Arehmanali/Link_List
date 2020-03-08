@@ -128,6 +128,8 @@ void List::update(int n)
 	currentNode->setValue(n);
 	cout << "value updated succesfully\n";
 }
+
+/* delete function for deleting the node from the list */
 void List::deleteNode()
 {
 	start();
