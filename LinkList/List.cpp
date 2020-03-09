@@ -224,6 +224,8 @@ void List::insertNewAfter(int n)
 		size++;
 	}
 }
+
+/* insert new node after the specified data stored in the list */
 void List::insertAfter(int n)
 {
 	start();
