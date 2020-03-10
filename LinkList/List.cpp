@@ -249,6 +249,8 @@ void List::insertAfter(int n)
 	size++;
 
 }
+
+/* sum function for suming the data stored in the link list */
 void List::sum()
 {
 	int sum = 0;
