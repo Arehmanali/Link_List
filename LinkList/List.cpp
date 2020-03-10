@@ -262,6 +262,8 @@ void List::sum()
 	}
 	cout << "\n Sum of all Nodes is:" << sum << endl;
 }
+
+/* reverse function for reserversing the list of nodes i.e last node become the head node */
 void List::reverseNode()
 {
 	start();
