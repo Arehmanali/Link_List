@@ -297,6 +297,8 @@ void List::sorting()
 		move();
 	}
 }
+
+/* destructor */
 List::~List()
 {
 }
