@@ -277,6 +277,8 @@ void List::reverseNode()
 	}
 	headNode = lastcurrentNode;
 }
+
+/* sorting function for sorting the nodes in ascending order on basis of data stored */
 void List::sorting()
 {
 	start();
