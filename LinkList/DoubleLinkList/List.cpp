@@ -12,6 +12,8 @@ List::List()
 	lastcurrentNode = 0;
 	size = 0;
 }
+
+// insert function for inserting the new node in the list
 void List::insert(int n)
 {
 	if (currentNode != 0)
