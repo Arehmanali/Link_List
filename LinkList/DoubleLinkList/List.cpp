@@ -4,6 +4,7 @@
 #include"cNode.h"
 #include<iostream>
 using namespace std;
+// default constructor for setting the values of nodes to null value
 List::List()
 {
 	headNode = 0;
