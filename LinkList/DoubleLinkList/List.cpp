@@ -38,6 +38,8 @@ void List::insert(int n)
 		insertAtBegin(n);
 	}
 }
+
+// print function for printing the value of nodes from the list
 void List::printAll()
 {
 	cNode* ptr;
