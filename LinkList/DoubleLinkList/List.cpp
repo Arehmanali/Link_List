@@ -52,6 +52,8 @@ void List::printAll()
 		ptr = ptr->nextNode;
 	}
 }
+
+// start function for shifting the current node to the head nodes
 void List::start()
 {
 	lastcurrentNode = 0;
