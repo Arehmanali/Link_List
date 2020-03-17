@@ -66,6 +66,8 @@ void List::move()
 	lastcurrentNode = currentNode;
 	currentNode = currentNode->getNextNode();
 }
+
+// getter function for getting the value of nodes from the list
 int List::get()
 {
 	return currentNode->getValue();
