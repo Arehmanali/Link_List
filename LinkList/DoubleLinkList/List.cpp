@@ -59,6 +59,8 @@ void List::start()
 	lastcurrentNode = 0;
 	currentNode = headNode;
 }
+
+// mpve function for moving the current node across the hole list
 void List::move()
 {
 	lastcurrentNode = currentNode;
