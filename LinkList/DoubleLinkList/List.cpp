@@ -72,6 +72,8 @@ int List::get()
 {
 	return currentNode->getValue();
 }
+
+// getter function for getting the size of linklist i.e number of nodes in list
 int List::getSize()
 {
 	return size;
