@@ -90,6 +90,8 @@ void List::insertAtBegin(int n)
 	currentNode->setValue(n);
 	size++;
 }
+
+// insert function for inserting the new node at the end of list
 void List::insertAtLast(int n)
 {
 	start();
