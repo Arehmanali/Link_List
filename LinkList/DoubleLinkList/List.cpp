@@ -108,6 +108,8 @@ void List::insertAtLast(int n)
 	currentNode->setNextNode(0);
 	size++;
 }
+
+// update function for updating the data in link list
 void List::update(int n)
 {
 	start();
