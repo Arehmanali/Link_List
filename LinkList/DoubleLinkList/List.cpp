@@ -164,6 +164,8 @@ void List::deleteNode()
 		size--;
 	}
 }
+
+// search function for searching the presence of node in the list
 void List::search()
 {
 	start();
