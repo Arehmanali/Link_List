@@ -191,6 +191,8 @@ void List::search()
 		cout << "Node is Not Found\n";
 	}
 }
+
+// insert new node function for inserting the new node after the specified index in the list
 void List::insertNewAfter(int n)
 {
 	start();
