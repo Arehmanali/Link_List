@@ -1,5 +1,3 @@
-
-
 #include "List.h"
 #include"cNode.h"
 #include<iostream>
@@ -250,6 +248,8 @@ void List::insertAfter(int n)
 	size++;
 
 }
+
+// sum function for adding the data stored in the list
 void List::sum()
 {
 	int sum = 0;
