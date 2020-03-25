@@ -17,6 +17,8 @@ void cNode::setNextNode(cNode* nn)
 {
 	nextNode = nn;
 }
+
+// getter function for getting the value of next node from the list
 cNode *cNode::getNextNode()
 {
 	return nextNode;
